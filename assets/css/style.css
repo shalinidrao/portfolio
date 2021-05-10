@@ -1,8 +1,48 @@
-nav {
+/* nav {
   padding-left: 2em;
 }
 nav .nav-item a:hover {
   color: #FF0000;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+} */
+
+#mynav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1em 2em;
+}
+
+#mynav nav {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+#mynav nav a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color:#303030;
+  text-decoration: none;
+  margin: 0 12px;
+
+  padding: 5px 5px;
+}
+
+#mynav nav a.selected {
+  color: #29c29c;
+}
+
+#mynav nav a:hover {
+  color: rgb(48,48,48, .7); 
+}
+
+#mynav > div {
+  align-self: center; 
 }
 
 .sidenav {

@@ -80,6 +80,16 @@ nav a {
   margin-left: 50px;
 }
 
+.top-container {
+  padding-top: 2%;
+}
+
+#headshot {
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+}
+
 .carousel-inner > .carousel-item > img,
   .carousel-inner > .carousel-item > a > img {
     width: auto;

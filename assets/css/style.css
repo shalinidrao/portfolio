@@ -85,9 +85,8 @@ nav a {
 }
 
 #headshot {
-  width: auto;
-  height: 400px;
-  max-height: 400px;
+  width: 75%;
+  height: auto;
 }
 
 .carousel-inner > .carousel-item > img,

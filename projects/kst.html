@@ -18,14 +18,17 @@
     <title>Shalini Rao</title>
   </head>
   <body>
+    <!-- side navbar of project pages,  use JS to set width >0 when clicked on -->
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">Kelly Strayhorn Theatre</a>
       <a href="bothsides.html">Both Sides</a>
     </div>
 
+    <!-- jumbotron to set entire screen width to background color -->
     <div class="jumbotron"> 
-    <div id="mynav">
+    <!-- navigation bar, only on project pages, home and project navigation -->
+      <div id="mynav">
       <div></div>
       <div>
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -34,15 +37,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto mt-3">
-                <!-- <a class="selected nav-item nav-link ml-auto active mb-2 pr-0" href="index.html">Work</span></a>
-                <a class="nav-item nav-link ml-auto mb-2 pr-0" href="play.html">Play</span></a> -->
                 <a class="nav-item nav-link ml-auto mb-2 pr-0" href="../index.html">home</a>
+                <!-- hamburger menu to bring out side nav for project pages -->
                 <span style="font-size:30px;cursor:pointer;color:black;" onclick="openNav()">&#9776;</span>
                 </div>
             </div>
         </nav>
       </div>
     </div>
+    <!-- begin project information -->
+    <!-- within jumbotron -->
     <div class="projectInfo">
       <h1>Kelly Strayhorn Theatre Membership Hub</h1><br>
       <h5>Teammates: Brady Baldwin, Cheuk Yin (Phipson) Lee, Pei-Yu (Alex) Tsai</h5> 
@@ -50,7 +54,7 @@
         Pittsburgh theatre stay afloat during the COVID-19 pandemic.</h6>
     </div>
     </div>
-    
+    <!-- end jumbotron -->
     <div class="projectBody">
       <h4>Problem</h4>
       <p>Like most other performing arts centers, Kelly Strayhorn Theater had to make 
@@ -91,7 +95,8 @@
         <li>Digital content is enjoyable and less pressure </li>
       </ul>
       </div>
-
+    
+    <!-- carousel for process images (taken from W3 Schools) -->
     <div class="row">
       <div class="col-1"></div>
       <div class="col-sm">
@@ -129,6 +134,7 @@
       </div>
       <div class="col-1"></div>
     </div>
+    <!-- back to project information -->
     <div class="projectBody">
       <p style="margin-top:1em;">From here, we developed our prototype for a membership hub to be hosted on KST’s website, 
         with a new button on the homepage to compel users to navigate to the membership page. We 
@@ -140,16 +146,17 @@
         community members could converse with one another. </p>
     </div>
 
+    <!-- project wireframe images, with drop shadows -->
     <div class="projectImages">
       <div class="row">
         <div class="col-lg-4">
-            <img src="../assets/images/kst/proto-1.png" style="width:100%;height:auto;" alt="membership perks page">
+            <img class="shadow" src="../assets/images/kst/proto-1.png" style="width:100%;height:auto;" alt="membership perks page">
         </div>
         <div class="col-lg-4">
-            <img src="../assets/images/kst/proto-2.png" style="width:100%;height:auto;" alt="member hub for forums and events">
+            <img class="shadow" src="../assets/images/kst/proto-2.png" style="width:100%;height:auto;" alt="member hub for forums and events">
         </div>
         <div class="col-lg-4">
-            <img src="../assets/images/kst/proto-3.png" style="width:100%;height:auto;" alt="current theatre website homepage with new button for membership">
+            <img class="shadow" src="../assets/images/kst/proto-3.png" style="width:100%;height:auto;" alt="current theatre website homepage with new button for membership">
         </div>
       </div>
     </div>
@@ -165,13 +172,5 @@
         learned the value of a detailed and diligent research process to inform your final 
         solution. </p>
     </div>
-
-    
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
   </body>
 </html>
